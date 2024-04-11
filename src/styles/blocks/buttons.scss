@@ -1,0 +1,21 @@
+.buttons {
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+  &__button {
+    background-color: lightgrey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border-color: black;
+      cursor: pointer;
+    }
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

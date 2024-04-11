@@ -1,0 +1,10 @@
+.footer {
+  color: #5f6368;
+  background-color: #f2f2f2;
+  line-height: 40px;
+
+  &__divider {
+    border-top: 1px solid #e4e4e4;
+    margin: 0 -20px 0;
+  }
+}

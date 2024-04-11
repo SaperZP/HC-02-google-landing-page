@@ -1,0 +1,54 @@
+.navigation {
+  line-height: 40px;
+
+  &__container--left {
+    height: 100%;
+    float: left;
+  }
+
+  &__container--right {
+    height: 100%;
+    float: right;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &--with-icon {
+      vertical-align: middle;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+    }
+
+    &--footer {
+      color: #5f6368;
+    }
+
+  }
+
+  &__link-icon {
+    height: 100%;
+
+    &:hover {
+      filter: contrast(.1);
+    }
+  }
+}

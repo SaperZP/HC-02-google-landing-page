@@ -1,0 +1,25 @@
+.search-box {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+
+  &:hover {
+    box-shadow: lightgrey 1px 2px 5px;
+  }
+
+  &__icon {
+    vertical-align: middle;
+    height: 20px;
+
+    &--clickable {
+      cursor: pointer;
+    }
+  }
+
+  &__input {
+    width: 400px;
+    margin: 0 10px;
+    outline: none;
+    border: none;
+  }
+}
